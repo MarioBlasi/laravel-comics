@@ -18,21 +18,72 @@ Route::get('/', function () {
         'page_title' => 'hello',
         'description' => 'lorem'
     ];
-    return view('home', $data);
+    return view('characters', $data);
 });
 
-Route::get('/about', function () {
+Route::get('/comics', function () {
     $data = [
         'page_title' => 'hello',
         'description' => 'lorem'
     ];
-    return view('about', $data);
+    return view('comics', $data);
 });
 
-Route::get('/contacts', function () {
+Route::get('/movies', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('movies', $data);
+});
+// primi 3
+Route::get('/tv', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('tv', $data);
+});
+
+Route::get('/games', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('games', $data);
+});
+
+Route::get('/collectibles', function () {
     $data = [
         'page_title' => 'hello',
         'description' => 'lorem'
     ];
     return view('contacts', $data);
 });
+// 6
+Route::get('/videos', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('videos', $data);
+});
+
+Route::get('/fans', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('fans', $data);
+});
+
+Route::get('/news', function () {
+    $data = [
+        'page_title' => 'hello',
+        'description' => 'lorem'
+    ];
+    return view('news', $data);
+});
+//9 
+ // + 
+// dropdown
