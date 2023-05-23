@@ -24,31 +24,54 @@
         </style>
     </head>
 <body>
-    <header>
-       <nav class="nav justify-content-center  ">
-         <a class="nav-link active" href="/" aria-current="page">CHARACTERS</a>
-         <a class="nav-link" href="/comics">COMICS</a>
-         <a class="nav-link " href="/movies">MOVIES</a>
-         <a class="nav-link active" href="/tv" aria-current="page">TV</a>
-         <a class="nav-link" href="/games">GAMES</a>
-         <a class="nav-link " href="/collectibles">COLLECTIBLES</a>
-         <a class="nav-link active" href="/videos" aria-current="page">VIDEOS</a>
-         <a class="nav-link" href="/fans">FANS</a>
-         <a class="nav-link " href="/news">NEWS</a>
+    <div class="container-flex bg-primary">
+        <div class="row">
+            <div class="col-8 d-flex justify-content-end">
+                <p>adfsasdf</p>
+              
+                <p>adfsasdf</p>
+            </div>
+            
+        </div>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="nav justify-content-center  ">
+                      <a class="nav-link active" href="/" aria-current="page">CHARACTERS</a>
+                      <a class="nav-link" href="/comics">COMICS</a>
+                      <a class="nav-link " href="/movies">MOVIES</a>
+                      <a class="nav-link active" href="/tv" aria-current="page">TV</a>
+                      <a class="nav-link" href="/games">GAMES</a>
+                      <a class="nav-link " href="/collectibles">COLLECTIBLES</a>
+                      <a class="nav-link active" href="/videos" aria-current="page">VIDEOS</a>
+                      <a class="nav-link" href="/fans">FANS</a>
+                      <a class="nav-link " href="/news">NEWS</a>
+             
+                      <div class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SHOP</a>
+                         <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Action</a>
+                         <a class="dropdown-item" href="#">Another action</a>
+                         <a class="dropdown-item" href="#">Something else here</a>
+                         <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#">Separated link</a>
+                         </div>
+                     </div>
+                    </nav>
 
-         <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SHOP</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+                </div>
             </div>
         </div>
-       </nav>
+    </nav>
+    <!--nav  -->
+    <header>
+       <div class="container-flex">
+        <img src="/resources" alt="">
+       </div>     
     </header>
-
+    <!--header  -->
     <main>
             <h1>{{$page_title}}</h1>
     </main>
